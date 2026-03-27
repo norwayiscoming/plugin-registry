@@ -8,9 +8,11 @@ The official plugin registry for [OpenACP](https://github.com/Open-ACP/OpenACP).
 | | Plugin | Description | Category | Version | |
 |---|--------|-------------|----------|---------|---|
 | 👋 | **[Hello World Plugin](https://github.com/Open-ACP/openacp-hello-example)** | Example plugin — greets users on session start | utility | `0.0.1` | ✓ verified |
+| 📝 | **[Summary Plugin](https://github.com/peterr0x/summary-plugin)** | Ask the AI agent to summarize the current session — what was accomplished, key files changed, decisions made, and current status | utility | `0.1.0` |  |
+| 📊 | **[Usage Plugin](https://github.com/peterr0x/usage-plugin)** | Automatically tracks token usage and cost per agent session, supports configurable monthly budgets with warning notifications | utility | `0.1.0` |  |
 <!-- PLUGINS_END -->
 
-**Total: 1 plugin** · [Submit yours →](CONTRIBUTING.md)
+**Total: 3 plugins** · [Submit yours →](CONTRIBUTING.md)
 
 ### Install a plugin
 
