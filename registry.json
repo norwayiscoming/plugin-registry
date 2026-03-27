@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-27T04:25:10.252Z",
-  "pluginCount": 3,
+  "generatedAt": "2026-03-27T06:28:15.428Z",
+  "pluginCount": 4,
   "plugins": [
     {
       "name": "openacp-hello",
@@ -22,6 +22,28 @@
       "license": "MIT",
       "verified": true,
       "featured": true
+    },
+    {
+      "name": "openacp-plugin-conversation-record",
+      "displayName": "Conversation Record & Context Bridge",
+      "description": "Record session events to JSONL and bridge context between concurrent sessions via /context command",
+      "npm": "@lngdao/openacp-plugin-conversation-record",
+      "version": "0.1.0",
+      "minCliVersion": "2026.0326.0",
+      "category": "utility",
+      "tags": [
+        "conversation",
+        "recording",
+        "context-bridge",
+        "session",
+        "history"
+      ],
+      "icon": "📝",
+      "author": "lngdao",
+      "repository": "https://github.com/lngdao/openacp-conversation-record-plugin",
+      "license": "MIT",
+      "verified": false,
+      "featured": false
     },
     {
       "name": "summary-plugin",
