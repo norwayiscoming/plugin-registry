@@ -4,26 +4,6 @@
   "pluginCount": 3,
   "plugins": [
     {
-      "name": "openacp-hello",
-      "displayName": "Hello World Plugin",
-      "description": "Example plugin — greets users on session start",
-      "npm": "openacp-hello-example",
-      "version": "0.0.1",
-      "minCliVersion": "2026.0326.0",
-      "category": "utility",
-      "tags": [
-        "example",
-        "hello",
-        "starter"
-      ],
-      "icon": "👋",
-      "author": "OpenACP",
-      "repository": "https://github.com/Open-ACP/openacp-hello-example",
-      "license": "MIT",
-      "verified": true,
-      "featured": true
-    },
-    {
       "name": "summary-plugin",
       "displayName": "Summary Plugin",
       "description": "Ask the AI agent to summarize the current session — what was accomplished, key files changed, decisions made, and current status",
