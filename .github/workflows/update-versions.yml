@@ -1,0 +1,35 @@
+name: Update Versions
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install
+
+      - name: Update plugin versions from npm
+        run: npm run update-versions
+
+      - name: Rebuild registry
+        run: npm run build
+
+      - name: Create PR if changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: update plugin versions'
+          title: 'chore: update plugin versions'
+          branch: auto/update-versions
+          body: 'Automated plugin version update from npm registry.'

@@ -1,0 +1,20 @@
+{
+  "name": "openacp-hello",
+  "displayName": "Hello World Plugin",
+  "description": "Example plugin — greets users on session start",
+  "npm": "openacp-hello-example",
+  "repository": "https://github.com/Open-ACP/openacp-hello-example",
+  "author": {
+    "name": "OpenACP",
+    "github": "Open-ACP"
+  },
+  "version": "0.0.1",
+  "minCliVersion": "2026.0326.0",
+  "category": "utility",
+  "tags": ["example", "hello", "starter"],
+  "icon": "👋",
+  "license": "MIT",
+  "verified": true,
+  "featured": true,
+  "createdAt": "2026-03-27T00:00:00Z"
+}

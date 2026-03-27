@@ -1,0 +1,26 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install
+
+      - name: Validate plugin files
+        run: npm run validate
+
+      - name: Check npm packages exist
+        run: npm run check-npm

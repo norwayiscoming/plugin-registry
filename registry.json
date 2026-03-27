@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-27T02:06:53.237Z",
+  "pluginCount": 1,
+  "plugins": [
+    {
+      "name": "openacp-hello",
+      "displayName": "Hello World Plugin",
+      "description": "Example plugin — greets users on session start",
+      "npm": "openacp-hello-example",
+      "version": "0.0.1",
+      "minCliVersion": "2026.0326.0",
+      "category": "utility",
+      "tags": [
+        "example",
+        "hello",
+        "starter"
+      ],
+      "icon": "👋",
+      "author": "OpenACP",
+      "repository": "https://github.com/Open-ACP/openacp-hello-example",
+      "license": "MIT",
+      "verified": true,
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "adapter",
+      "name": "Adapters",
+      "icon": "🔌"
+    },
+    {
+      "id": "utility",
+      "name": "Utilities",
+      "icon": "🔧"
+    },
+    {
+      "id": "integration",
+      "name": "Integrations",
+      "icon": "🔗"
+    },
+    {
+      "id": "ai",
+      "name": "AI & Models",
+      "icon": "🤖"
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "icon": "🔒"
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "icon": "🎵"
+    }
+  ]
+}
