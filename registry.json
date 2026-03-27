@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-27T06:28:15.428Z",
-  "pluginCount": 4,
+  "generatedAt": "2026-03-27T06:29:45.735Z",
+  "pluginCount": 5,
   "plugins": [
     {
       "name": "openacp-hello",
@@ -22,6 +22,27 @@
       "license": "MIT",
       "verified": true,
       "featured": true
+    },
+    {
+      "name": "cowork",
+      "displayName": "Cowork — Multi-Agent Coordination",
+      "description": "Coordinate multiple AI agents working on the same codebase with status broadcasting and context injection",
+      "npm": "openacp-cowork",
+      "version": "1.0.1",
+      "minCliVersion": "2026.0326.4",
+      "category": "utility",
+      "tags": [
+        "cowork",
+        "multi-agent",
+        "collaboration",
+        "coordination"
+      ],
+      "icon": "🤝",
+      "author": "norway",
+      "repository": "https://github.com/norwayiscoming/OpenACP-Cowork",
+      "license": "MIT",
+      "verified": false,
+      "featured": false
     },
     {
       "name": "openacp-plugin-conversation-record",
